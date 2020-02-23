@@ -1,0 +1,133 @@
+	* {margin: 0px; padding: 0px;}
+	body{ background-color: #7a7c80;
+	
+	}
+	.main{width:100vw;
+		margin: auto;
+		background-color: #626469;
+		}
+		
+	.kopf{ background-color: #333436; color: #fff; 
+border-bottom: 3px #fff solid;
+padding:20px;
+	}
+
+	
+	.kopf ul{
+		display: flex;
+	}
+	.kopf li{
+	list-style-type: none;
+	padding: 0 2vw;
+	font-size: 3vh;
+	}
+	.kopf a { 
+		color: white;
+		text-decoration: none;	
+		
+		padding:20px;
+		}
+	.kopf a:hover{
+  background-color: #86898f;
+ 
+  
+}	
+		
+	.hauptteil{ color: white; padding: 20px; }
+	.hauptteil p {text-align: justify;
+	padding:5px;}
+	table {
+	text-align:center;
+
+	}
+	th { border: solid #fff 3px;
+	padding:5px;
+	
+	}
+	tr {
+		
+	padding:5px;
+	font-weight:bold;
+	
+	}
+	
+	table a {
+			color: white;
+		text-decoration: none;	
+	}
+	
+	table a:hover{
+		color: red;
+	}
+	.footer{ background-color: #333436; padding: 20px; color:#fff; }
+	
+	.startseite {margin-left: 25%;}
+	.startseite input {margin:  5px 0;}
+	.ueberschrift {margin-left: 25%;margin-bottom: 25px;}
+	.ueberschrift h2{word-spacing: 5px;
+	padding:10px;}
+	
+	.DisplayNone{display:none;}
+	#aenderung {
+		position: absolute;
+left: 35vw;
+top: 10vh;
+background-color:#333436;
+border:5px double #fff;
+padding:0px 10px;
+	}
+#kontakt_formular div { background-color:#333436;
+border:5px double #fff;
+padding:0px 10px;
+display:none;/**/}
+
+#n1_name {
+position: absolute;
+left: 30vw;
+top: 20vh;
+}
+#n2_name{
+position: absolute;
+left: 30vw;
+top: 24.9vh;
+}
+
+
+#n3_mail{
+position: absolute;
+left: 30vw;
+top: 30.2vh;
+}
+#n3_mail2{
+position: absolute;
+left: 30vw;
+top: 30.2vh;
+}
+
+#n1_login{
+	position: absolute;
+left: 30vw;
+top: 34.8vh;
+line-height:20px;
+}
+
+#n1_password{
+position: absolute;
+left: 30vw;
+top: 39.4vh;
+line-height:20px;
+}
+
+#n2_password{
+position: absolute;
+left: 30vw;
+top: 39.4vh;
+line-height:20px;
+}
+
+#n3_password{
+position: absolute;
+left: 30vw;
+top: 39.4vh;
+line-height:20px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "racing",
+  "version": "0.0.1",
+  "description": "kleines Multiplayer Rennspiel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "C. Pape",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {}
+}
