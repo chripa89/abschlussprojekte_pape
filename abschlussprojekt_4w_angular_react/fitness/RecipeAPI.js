@@ -38,8 +38,8 @@ class RecipeAPI extends Component {
         this.abendEssenListe()
         this.fruestueckListe()
 
-        const YOUR_APP_ID = '6ff3b59b';
-        const YOUR_APP_KEY = '53f9547355139ebdda5640fee4c27c90';
+        const YOUR_APP_ID = '';
+        const YOUR_APP_KEY = '';
         const ESSEN = 'lunch'
         const url = `https://api.edamam.com/search?q=${ESSEN}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=10`
         const response = await fetch(url);
@@ -54,8 +54,8 @@ class RecipeAPI extends Component {
 
 
 
-        const YOUR_APP_ID = '6ff3b59b';
-        const YOUR_APP_KEY = '53f9547355139ebdda5640fee4c27c90';
+        const YOUR_APP_ID = '';
+        const YOUR_APP_KEY = '';
         const ESSEN = 'dinner'
         const url = `https://api.edamam.com/search?q=${ESSEN}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=10`
         const response = await fetch(url);
@@ -69,8 +69,8 @@ class RecipeAPI extends Component {
 
 
 
-        const YOUR_APP_ID = '6ff3b59b';
-        const YOUR_APP_KEY = '53f9547355139ebdda5640fee4c27c90';
+        const YOUR_APP_ID = '';
+        const YOUR_APP_KEY = '';
         const ESSEN = 'breakfast'
         const url = `https://api.edamam.com/search?q=${ESSEN}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=10`
         const response = await fetch(url);
