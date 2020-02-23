@@ -1,0 +1,98 @@
+body {padding: 25px;}
+
+header{ color:#33ccff;
+text-shadow: 2px 2px #000;
+font-size: 2rem; 
+text-align: center;}
+
+.sticky { 
+background-color: #fff;
+padding-top:4px;
+padding-bottom: 3px;
+    position: sticky;
+    top: 0;
+}
+   
+
+.alignCenter{ text-align: center!important;}
+
+.capitalize { text-transform: capitalize}
+
+option { width: 50px;
+height: 25px}
+
+.flex { float:left;
+    text-align: center;
+    width: 33%; 
+
+}
+
+
+.logout{border: solid #000 1px;
+background-color:#33ccff;
+text-decoration: none;
+border-radius: 5px;
+color: #fff;
+font-weight: 600;
+padding:10px 15px;
+float: right;}
+
+.schub{margin-left: 35%;}
+.schub2{margin-left: 45%;}
+
+.logout:hover{
+    color:#000;
+    background-color: grey;
+}
+.green {color: green;}
+.red{ color:red;}
+
+.einkaufsliste{
+    display:inline-block;
+}
+.einkaufsliste li {
+    padding:  3px ;
+    list-style-type: none;
+    
+    border-bottom: none;
+}
+
+.noEditing {
+    border: none!important;
+}
+.left{
+    margin-left: 40%;
+}
+
+
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 
